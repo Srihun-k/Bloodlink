@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --blood: #8B1A1A;
+  --blood-dark: #6B1212;
+  --blood-light: #A52020;
+  --cream: #F2EDE8;
+  --cream-dark: #E8E2DB;
+  --charcoal: #1A1A1A;
+  --muted: #6B6560;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: 'Inter', system-ui, sans-serif;
+}
